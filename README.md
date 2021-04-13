@@ -1,3 +1,21 @@
+# iMessage-Clone
+
+> An iOS powered chat application powered by React-js, Redux, styled using Material-UI & hosted on firebase.
+> The state management is done with redux store, google authentication & firebase hosted.
+
+## Components
+
+- Imessage (Sidebar, Chat)
+- Sidebar (SidebarChat)
+- Chat
+
+## Dependencies
+
+- material-ui/core & icons
+- firebase
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Available Scripts
