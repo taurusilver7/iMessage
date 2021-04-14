@@ -1,9 +1,9 @@
 .chat {
   display: flex;
   flex-direction: column;
-  flex: 0.65;
+  flex: 0.7;
   height: 100vh;
-  bkgcolor: white;
+  background-color: white;
 }
 .chat__header {
   padding: 20px;
@@ -34,6 +34,15 @@
 }
 .chat__messages {
   flex: 1;
+  overflow: scroll;
+}
+
+.chat__messages::-webkit-scrollbar {
+  display: none;
+}
+.chat__messages {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 .chat__input > form > input {
