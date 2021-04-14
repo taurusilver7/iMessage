@@ -7,12 +7,15 @@
 
 - Imessage (Sidebar, Chat)
 - Sidebar (SidebarChat)
-- Chat
 
 ## Dependencies
 
 - material-ui/core & icons
 - firebase
+- react-flip-move
+- timeago.js
+
+- The hosted chat application is available [here](https://imessage-8a531.web.app/)
 
 ---
 
